@@ -12354,7 +12354,7 @@ hr.divider-light {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://64.media.tumblr.com/a171c7eb12c3315e97bebb141cc3f627/498a4c9a2ab2fdac-be/s1280x1920/b07adca64542494eb44fcbe71d3eb8ffa995c3dd.jpg");
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/Images/hero_my-portfolio.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
