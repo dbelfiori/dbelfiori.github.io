@@ -1,5 +1,5 @@
 %%[
-SET @jason = '[{"id":"value1"},{"id":"value2"},{"id":"value3"}]'
+SET @json = '[{"id":"value1"},{"id":"value2"},{"id":"value3"}]'
 ]%%
 
 {{.datasource order type=variable source=@json}}
