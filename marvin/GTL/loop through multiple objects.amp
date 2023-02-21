@@ -1,0 +1,16 @@
+%%[
+SET @jason = '[{"id":"value1"},{"id":"value2"},{"id":"value3"}]'
+]%%
+
+{{.datasource order type=variable source=@json}}
+    {{.data}}
+        {"target":"@json"}
+    {{/data}}
+
+    <table cellspacing="0" cellpadding="0" border="0" width="100%">
+        <tr>
+            <td>ID: {{id}}</td>
+        </tr>
+    </table>
+
+{{/datasource}}
