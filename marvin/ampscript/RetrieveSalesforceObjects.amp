@@ -3,7 +3,7 @@ SET @AppID = AttributeValue("ApplicationID")
 SET @ProspectLeadID = AttributeValue("DS_Prospect_Lead_ID__c")
 
 IF NOT EMPTY (@AppID) THEN
-  SET @AppID =  AttributeValue("ApplicationID")
+  SET @AppID = AttributeValue("ApplicationID")
   SET @prospectRow = RetrieveSalesforceObjects("User","Id","ID", "=", @AppID)
 
   IF RowCount(@prospectRow) > 0 THEN
@@ -11,7 +11,6 @@ IF NOT EMPTY (@AppID) THEN
     SET @Id = field(@row, "Id")
   ENDIF
 ELSE
-
   SET @prospectRow = RetrieveSalesforceObjects("User","Id","ID", "=", @ProspectLeadID)
   IF RowCount(@prospectRow) > 0 THEN
     SET @Row = Row(@prospectRow,1)
