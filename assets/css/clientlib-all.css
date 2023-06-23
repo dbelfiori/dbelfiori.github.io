@@ -659,6 +659,7 @@ progress {
     top: 0;
     width: 100% !important;
 }
+.img-bg-dark {background-color: rgba(var(--bs-dark-rgb), .2) !important;}
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
