@@ -650,7 +650,15 @@ progress {
     max-width: 100%;
     height: auto;
 }
-
+.img-bg {
+    height: 100% !important;
+    left: 0;
+    object-fit: cover;
+    object-position: center center;
+    position: absolute;
+    top: 0;
+    width: 100% !important;
+}
 .img-thumbnail {
     padding: 0.25rem;
     background-color: #fff;
