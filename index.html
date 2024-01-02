@@ -29,7 +29,53 @@
         padding-bottom: 0;
       }
     }
-  </style>
+
+  .scroller {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .scroller[data-animated="true"] .scroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: scroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite;
+  }
+  .scroller[data-direction="right"] {
+    --_animation-direction: reverse;
+  }
+  .scroller[data-direction="left"] {
+    --_animation-direction: forwards;
+  }
+  .scroller[data-speed="fast"] {
+    --_animation-duration: 30s;
+  }
+  .scroller[data-speed="slow"] {
+    --_animation-duration: 60s;
+  }
+
+  @keyframes scroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+
+  .tag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+  }
+  .tag-list li {
+    padding: 1rem;
+    background: var(--clr-primary-400);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+  }
+</style>
 </head>
 
 <body id="page-top">
@@ -129,156 +175,37 @@
       </div>
     </div>
   </section>
-  <!-- Call to action-->
-  <section class="py-4 px-4 bg-dark text-white">
-    <div class="container text-center">
-      <h2>Past Email Work</h2>
-    </div>
-  </section>
-  <!-- Portfolio-->
+ <!-- Portfolio-->
   <div id="portfolio">
     <div class="container-lg p-0">
-      <div class="row g-0">
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6 d-flex align-items-center">
-            <a href="https://dominicbelfiori.com/projects/usbank.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-usbank.jpg" alt="" /></a>
+      <h2 class="text-center mt-0">Past Clients</h2>
+      <hr class="divider" />
+      <div class="scroller" data-direction="right" data-speed="slow">
+        <div class="scroller__inner">
+          <img src="https://dominicbelfiori.com/assets/Images/logo-usbank.jpg" alt="U.S. Bank" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-target.jpg" alt="Target.com" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-wyndham.jpg" alt="Wyndham Hotel Group" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-amtrak.jpg" alt="Amtrak" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-uhc.jpg" alt="United Healthcare" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-jmsmuckers.jpg" alt="J.M. Smuckers" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-bestbuy.jpg" alt="Best Buy" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-pepsico.jpg" alt="Pepsi Co." />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-generalmills.jpg" alt="General Mills" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-petco.jpg" alt="Petco" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-nhl.jpg" alt="NHL" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-bauer.jpg" alt="Bauer" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-skittles.jpg" alt="Skittles" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-peiwei.jpg" alt="Pei Wei" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-express.jpg" alt="Express" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-jrwatkins.jpg" alt="J.R. Watkins" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-belize.jpg" alt="TravelBelize.org" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-alz.jpg" alt="Alz.org" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-ace.jpg" alt="Ace Hardware" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-medifast.jpg" alt="Medifast" />
         </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/target.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-target.jpg" alt="" /></a>
-        </div>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/wyndham.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-wyndham.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/amtrak.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-amtrak.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/petco.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-petco.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/uhc.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-unitedhealthcare.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-            <a href="https://dominicbelfiori.com/projects/express.html">
-              <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-express.jpg" alt=""></a>
-        </div>
-
-        <!--div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/olson.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-olson.jpg" alt=""></a>
-        </div-->
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/usagov.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-usagov.jpg" alt=""></a>
-        </div>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/smuckers.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-jmsmuckers.jpg" alt=""></a>
-        </div>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/bestbuy.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-bestbuy.jpg" alt=""></a>
-        </div>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/pfchangs.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-pfchangs.jpg" alt=""></a>
-        </div>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/skittles.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-skittles.jpg" alt=""></a>
-        </div>
-        
-        <section class="py-4 px-4 bg-dark text-white">
-          <div class="container text-center">
-            <h2>Past Website Work</h2>
-          </div>
-        </section>
-        
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/target.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-target.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/amtrak.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-amtrak.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/jrwatkins.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-jrwatkins.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/bauer.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-bauer.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/pepsico.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-pepsico.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/travelbelize.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-travelbelize.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/alz.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-alz.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/rigageto.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-rigageto.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/ace.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-ace.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/fireflysisterhood.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-fireflysisterhood.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/nxmw.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-nxmw.jpg" alt=""></a>
-        </div>
-
-        <div class="work-box position-relative overflow-hidden col-lg-4 col-sm-6">
-          <a href="https://dominicbelfiori.com/projects/medifast.html">
-            <img class="w-100 h-100" src="https://dominicbelfiori.com/assets/Images/client-medifast.jpg" alt=""></a>
-        </div>
-
       </div>
     </div>
   </div>
-  <section class="py-4 px-4 bg-dark text-white">
-    <div class="container text-center">
-      &nbsp;
-    </div>
-  </section>
   <section class="page-section" id="recognitions">
     <div class="container px-4 px-lg-5">
       <h2 class="text-center mt-0">RECOGNITIONS</h2>
@@ -322,6 +249,36 @@
   <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
+  <script>
+    // client carousel
+    const scrollers = document.querySelectorAll(".scroller");
+
+      // If a user hasn't opted in for recuded motion, then we add the animation
+      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        addAnimation();
+      }
+
+      function addAnimation() {
+        scrollers.forEach((scroller) => {
+          // add data-animated="true" to every `.scroller` on the page
+          scroller.setAttribute("data-animated", true);
+
+          // Make an array from the elements within `.scroller-inner`
+          const scrollerInner = scroller.querySelector(".scroller__inner");
+          const scrollerContent = Array.from(scrollerInner.children);
+
+          // For each item in the array, clone it
+          // add aria-hidden to it
+          // add it into the `.scroller-inner`
+          scrollerContent.forEach((item) => {
+            const duplicatedItem = item.cloneNode(true);
+            duplicatedItem.setAttribute("aria-hidden", true);
+            scrollerInner.appendChild(duplicatedItem);
+          });
+        });
+      }
+
+  </script>
   <script>
     window.addEventListener('DOMContentLoaded', event => {
 
