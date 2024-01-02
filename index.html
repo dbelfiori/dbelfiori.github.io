@@ -30,52 +30,58 @@
       }
     }
 
-  .scroller {
-    max-width: 100%;
-    overflow: hidden;
-  }
-  .scroller__inner {
-    padding-block: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .scroller[data-animated="true"] .scroller__inner {
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 40s)
-      var(--_animation-direction, forwards) linear infinite;
-  }
-  .scroller[data-direction="right"] {
-    --_animation-direction: reverse;
-  }
-  .scroller[data-direction="left"] {
-    --_animation-direction: forwards;
-  }
-  .scroller[data-speed="fast"] {
-    --_animation-duration: 30s;
-  }
-  .scroller[data-speed="slow"] {
-    --_animation-duration: 60s;
-  }
-
-  @keyframes scroll {
-    to {
-      transform: translate(calc(-50% - 0.5rem));
+    .scroller {
+      max-width: 100%;
+      overflow: hidden;
     }
-  }
 
-  .tag-list {
-    margin: 0;
-    padding-inline: 0;
-    list-style: none;
-  }
-  .tag-list li {
-    padding: 1rem;
-    background: var(--clr-primary-400);
-    border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
-  }
-</style>
+    .scroller__inner {
+      padding-block: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .scroller[data-animated="true"] .scroller__inner {
+      width: max-content;
+      flex-wrap: nowrap;
+      animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+    }
+
+    .scroller[data-direction="right"] {
+      --_animation-direction: reverse;
+    }
+
+    .scroller[data-direction="left"] {
+      --_animation-direction: forwards;
+    }
+
+    .scroller[data-speed="fast"] {
+      --_animation-duration: 30s;
+    }
+
+    .scroller[data-speed="slow"] {
+      --_animation-duration: 60s;
+    }
+
+    @keyframes scroll {
+      to {
+        transform: translate(calc(-50% - 0.5rem));
+      }
+    }
+
+    .tag-list {
+      margin: 0;
+      padding-inline: 0;
+      list-style: none;
+    }
+
+    .tag-list li {
+      padding: 1rem;
+      background: var(--clr-primary-400);
+      border-radius: 0.5rem;
+      box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -90,8 +96,8 @@
         <ul class="navbar-nav ms-auto my-2 my-lg-0">
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link" href="#recognitions">Recognitions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Past Work</a></li>
         </ul>
       </div>
     </div>
@@ -106,7 +112,8 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <p class="text-white-75 mb-5">Featured is a collection of companies I’ve worked with that each
-            represent pivotal moments in my professional life journey. Ranging between both website and email, I’ve engaged in countless projects on both client- and
+            represent pivotal moments in my professional life journey. Ranging between both website and email, I’ve
+            engaged in countless projects on both client- and
             agency-side.</p>
           <a class="btn btn-primary btn-xl" href="#experience">My Experience</a>
         </div>
@@ -175,38 +182,7 @@
       </div>
     </div>
   </section>
- <!-- Portfolio-->
-  <div id="portfolio">
-    <div class="container-lg p-0">
-      <h2 class="text-center mt-0">Past Clients</h2>
-      <hr class="divider" />
-      <div class="scroller" data-direction="left" data-speed="slow">
-        <div class="scroller__inner">
-          <img src="https://dominicbelfiori.com/assets/Images/logo-usbank.jpg" alt="U.S. Bank" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-target.jpg" alt="Target.com" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-wyndham.jpg" alt="Wyndham Hotel Group" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-amtrak.jpg" alt="Amtrak" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-uhc.jpg" alt="United Healthcare" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-jmsmuckers.jpg" alt="J.M. Smuckers" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-bestbuy.jpg" alt="Best Buy" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-pepsico.jpg" alt="Pepsi Co." />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-generalmills.jpg" alt="General Mills" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-petco.jpg" alt="Petco" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-nhl.jpg" alt="NHL" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-bauer.jpg" alt="Bauer" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-skittles.jpg" alt="Skittles" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-peiwei.jpg" alt="Pei Wei" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-express.jpg" alt="Express" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-jrwatkins.jpg" alt="J.R. Watkins" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-belize.jpg" alt="TravelBelize.org" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-alz.jpg" alt="Alz.org" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-ace.jpg" alt="Ace Hardware" />
-          <img src="https://dominicbelfiori.com/assets/Images/logo-medifast.jpg" alt="Medifast" />
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="page-section" id="recognitions">
+  <section class="page-section" id="recognitions" style="background: #efefef">
     <div class="container px-4 px-lg-5">
       <h2 class="text-center mt-0">RECOGNITIONS</h2>
       <hr class="divider" />
@@ -246,37 +222,68 @@
       </div>
     </div>
   </section>
+  <!-- Portfolio-->
+  <section class="page-section" id="portfolio">
+    <div class="container-lg p-0">
+      <h2 class="text-center mt-0">Past Clients</h2>
+      <hr class="divider" />
+      <div class="scroller" data-direction="left" data-speed="slow">
+        <div class="scroller__inner">
+          <img src="https://dominicbelfiori.com/assets/Images/logo-usbank.jpg" alt="U.S. Bank" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-target.jpg" alt="Target.com" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-wyndham.jpg" alt="Wyndham Hotel Group" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-amtrak.jpg" alt="Amtrak" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-uhc.jpg" alt="United Healthcare" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-jmsmuckers.jpg" alt="J.M. Smuckers" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-bestbuy.jpg" alt="Best Buy" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-pepsico.jpg" alt="Pepsi Co." />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-generalmills.jpg" alt="General Mills" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-petco.jpg" alt="Petco" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-nhl.jpg" alt="NHL" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-bauer.jpg" alt="Bauer" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-skittles.jpg" alt="Skittles" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-peiwei.jpg" alt="Pei Wei" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-express.jpg" alt="Express" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-jrwatkins.jpg" alt="J.R. Watkins" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-belize.jpg" alt="TravelBelize.org" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-alz.jpg" alt="Alz.org" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-ace.jpg" alt="Ace Hardware" />
+          <img src="https://dominicbelfiori.com/assets/Images/logo-medifast.jpg" alt="Medifast" />
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Core theme JS-->
   <script>
     // client carousel
     const scrollers = document.querySelectorAll(".scroller");
 
-      // If a user hasn't opted in for recuded motion, then we add the animation
-      if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-        addAnimation();
-      }
+    // If a user hasn't opted in for recuded motion, then we add the animation
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
 
-      function addAnimation() {
-        scrollers.forEach((scroller) => {
-          // add data-animated="true" to every `.scroller` on the page
-          scroller.setAttribute("data-animated", true);
+    function addAnimation() {
+      scrollers.forEach((scroller) => {
+        // add data-animated="true" to every `.scroller` on the page
+        scroller.setAttribute("data-animated", true);
 
-          // Make an array from the elements within `.scroller-inner`
-          const scrollerInner = scroller.querySelector(".scroller__inner");
-          const scrollerContent = Array.from(scrollerInner.children);
+        // Make an array from the elements within `.scroller-inner`
+        const scrollerInner = scroller.querySelector(".scroller__inner");
+        const scrollerContent = Array.from(scrollerInner.children);
 
-          // For each item in the array, clone it
-          // add aria-hidden to it
-          // add it into the `.scroller-inner`
-          scrollerContent.forEach((item) => {
-            const duplicatedItem = item.cloneNode(true);
-            duplicatedItem.setAttribute("aria-hidden", true);
-            scrollerInner.appendChild(duplicatedItem);
-          });
+        // For each item in the array, clone it
+        // add aria-hidden to it
+        // add it into the `.scroller-inner`
+        scrollerContent.forEach((item) => {
+          const duplicatedItem = item.cloneNode(true);
+          duplicatedItem.setAttribute("aria-hidden", true);
+          scrollerInner.appendChild(duplicatedItem);
         });
-      }
+      });
+    }
 
   </script>
   <script>
@@ -324,7 +331,7 @@
         });
       });
 
-     
+
     });
   </script>
 </body>
