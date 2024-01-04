@@ -268,7 +268,7 @@ a {
 }
 
 a:hover {
-    color: #032c4f;
+    color: #f4623a;
 }
 
 a:not([href]):not([class]),
@@ -12286,6 +12286,10 @@ hr.divider-light {
     background-color: #fff;
 }
 
+hr.divider-orange {
+    background-color: #f4623a;
+}
+
 #mainNav {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
@@ -12352,7 +12356,7 @@ hr.divider-light {
     }
 
     #mainNav.navbar-shrink .navbar-brand:hover {
-        color: #053863;
+        color: #f4623a;
     }
 
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
@@ -12360,7 +12364,7 @@ hr.divider-light {
     }
 
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-        color: #053863;
+        color: #f4623a;
     }
 }
 
