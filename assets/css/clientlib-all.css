@@ -263,7 +263,7 @@ sup {
 }
 
 a {
-    color: #053863;
+    color: #0077B5;
     text-decoration: underline;
 }
 
@@ -12312,7 +12312,7 @@ hr.divider-light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-    color: #053863 !important;
+    color: #0077B5 !important;
 }
 
 @media (min-width: 992px) {
