@@ -7360,7 +7360,7 @@ fieldset:disabled .btn {
 }
 
 .link-primary {
-    color: #053863;
+    color: #0077B5;
 }
 
 .link-primary:hover,
@@ -12322,7 +12322,7 @@ hr.divider-light {
     }
 
     #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7);
+        color: #0077B5;
     }
 
     #mainNav .navbar-brand:hover {
@@ -12330,7 +12330,7 @@ hr.divider-light {
     }
 
     #mainNav .navbar-nav .nav-item .nav-link {
-        color: rgba(255, 255, 255, 0.7);
+        color: #0077B5;
         padding: 0 1rem;
     }
 
