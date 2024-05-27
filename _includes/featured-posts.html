@@ -18,10 +18,6 @@
 
               <div class="article__inner">
 
-                {% if post.featured %}
-                <span class="featured-post fa-regular fa-star"></span>
-                {% endif %}
-
                 {% if post.image %}
                 <a class="article__image" href="{{post.url | prepend: site.baseurl}}">
                   <img class="lazy" data-src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}">
