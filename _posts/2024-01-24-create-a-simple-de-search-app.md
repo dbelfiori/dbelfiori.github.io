@@ -5,6 +5,7 @@ description: If users in your instance of Salesforce Marketing Cloud struggle wi
 date:   2024-01-24 15:01:35 +0300
 image:  '/images/06.jpg'
 tags:   [SSJS]
+featured: true
 
 {% highlight markdown %}
 <table style="padding: 20px;"><tr><td>
