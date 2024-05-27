@@ -14,7 +14,7 @@ menu-settings:
     - title: 'Experience'
       url: '/experience/'
     - title: 'Projects'
-      url: '/projects/'
+      url: '/tags/'
 #-------------------------------
 # Author Settings
 author:
