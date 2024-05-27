@@ -2,7 +2,7 @@
 # Site Settings
 title: Dominic Belfiori
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Norlin – A Beautiful Dark Blog Theme for Jekyll.
+description: 2X Certified email developer with a focus on Salesforce Marketing Cloud.
 
 
 #-------------------------------
@@ -11,8 +11,6 @@ menu-settings:
   menu-items:
     - title: 'Home'
       url: '/'
-    - title: 'About'
-      url: '/about/'
     - title: 'Experience'
       url: '/experience/'
     - title: 'Projects'
@@ -21,7 +19,7 @@ menu-settings:
 # Author Settings
 author:
   name: Dominic Belfiori
-  avatar: '/images/15.jpg'
+  avatar: '/images/portrait-dominic.jpg'
 
 
 #-------------------------------
@@ -37,9 +35,6 @@ hero:
 contact:
   email:  # Add your email for contact form
   description: # Add a description of your form
-
-# NOTE
-# Norlin theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
 
 
 #-------------------------------
