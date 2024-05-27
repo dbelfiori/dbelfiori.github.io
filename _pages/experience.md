@@ -10,33 +10,35 @@ I am a multi-disciplinary developer with over 12 years experience working with E
 ***
 
 ### SKILLS
-<div class="col col-4 col-d-6 col-t-12 text-center">
-  <div>
-    <h3>Platforms</h3>
-    <p>
-      Salesforce Marketing Cloud<br>
-      Adobe Experience Manager<br>
-      Marketo
-    </p>
+<div class="row">
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Platforms</h3>
+      <p>
+        Salesforce Marketing Cloud<br>
+        Adobe Experience Manager<br>
+        Marketo
+      </p>
+    </div>
   </div>
-</div>
-<div class="col col-4 col-d-6 col-t-12 text-center">
-  <div>
-    <h3>Engineering</h3>
-    <p>
-      HTML/CSS<br>
-      AMPscript<br>
-      JavaScript/JQuery/Vue.js<br>
-      Accessibility (WCAG 2.0)
-    </p>
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Engineering</h3>
+      <p>
+        HTML/CSS<br>
+        AMPscript<br>
+        JavaScript/JQuery/Vue.js<br>
+        Accessibility (WCAG 2.0)
+      </p>
+    </div>
   </div>
-</div>
-<div class="col col-4 col-d-6 col-t-12 text-center">
-  <div>
-    <h3>Graphic Design</h3>
-    <p>Create layouts and translate designs into responsive emails and
-      websites using tools like Photoshop, Figma, and Adobe XD.
-    </p>
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Graphic Design</h3>
+      <p>Create layouts and translate designs into responsive emails and
+        websites using tools like Photoshop, Figma, and Adobe XD.
+      </p>
+    </div>
   </div>
 </div>
 
