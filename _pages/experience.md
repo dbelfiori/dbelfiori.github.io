@@ -42,8 +42,6 @@ I am a multi-disciplinary developer with over 12 years experience working with E
   </div>
 </div>
 
-***
-
 ### RECOGNITIONS
 
 #### Awards
