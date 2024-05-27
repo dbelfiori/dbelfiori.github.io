@@ -1,170 +1,93 @@
 ---
 layout: page
-title: Style Guide
-permalink: /styleguide/
+title: Experience
+permalink: /experience/
 image: '/images/50.jpg'
 ---
 
-A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman.
+I am a multi-disciplinary developer with over 12 years experience working with Enterprise level companies on their Email Marketing Campaigns, Landing Pages, and Websites.
 
 ***
 
-## Headings by default:
-
-# H1 For example
-## H2 For example
-### H3 For example
-#### H4 For example
-##### H5 For example
-###### H6 For example
-
-{% highlight markdown %}
-## Heading first level
-### Heading second level
-#### Heading third level
-{% endhighlight %}
-
-***
-
-## Lists
-
-#### Ordered list example:
-
-1. Poutine drinking vinegar bitters.
-2. Coloring book distillery fanny pack.
-3. Venmo biodiesel gentrify enamel pin meditation.
-4. Jean shorts shaman listicle pickled portland.
-5. Salvia mumblecore brunch iPhone migas.
-
-{% highlight markdown %}
-1. Order list item 1
-2. Order list item 1
-{% endhighlight %}
-
-***
-
-#### Unordered list example:
-
-* Bitters semiotics vice thundercats synth.
-* Literally cred narwhal bitters wayfarers.
-* Kale chips chartreuse paleo tbh street art marfa.
-* Mlkshk polaroid sriracha brooklyn.
-* Pug you probably haven't heard of them air plant man bun.
-
-{% highlight markdown %}
-* Unordered list item 1
-* Unordered list item 2
-{% endhighlight %}
-
-***
-
-### Table
-
-<div class="table-container">
-  <table>
-    <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th></tr>
-    <tr><td>Row:1 Cell:1</td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td><td>Row:1 Cell:4</td><td>Row:1 Cell:5</td></tr>
-    <tr><td>Row:2 Cell:1</td><td>Row:2 Cell:2</td><td>Row:2 Cell:3</td><td>Row:2 Cell:4</td><td>Row:2 Cell:5</td></tr>
-    <tr><td>Row:3 Cell:1</td><td>Row:3 Cell:2</td><td>Row:3 Cell:3</td><td>Row:3 Cell:4</td><td>Row:3 Cell:5</td></tr>
-    <tr><td>Row:4 Cell:1</td><td>Row:4 Cell:2</td><td>Row:4 Cell:3</td><td>Row:4 Cell:4</td><td>Row:4 Cell:5</td></tr>
-    <tr><td>Row:5 Cell:1</td><td>Row:5 Cell:2</td><td>Row:5 Cell:3</td><td>Row:5 Cell:4</td><td>Row:5 Cell:5</td></tr>
-    <tr><td>Row:6 Cell:1</td><td>Row:6 Cell:2</td><td>Row:6 Cell:3</td><td>Row:6 Cell:4</td><td>Row:6 Cell:5</td></tr>
-  </table>
-</div>
-
-***
-
-## Quotes
-
-#### A quote looks like this:
-
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
-
-{% highlight html %}
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
-{% endhighlight %}
-
-***
-
-## Syntax Highlighter
-
-{% highlight js %}
-  $('.top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
-  });
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > $(window).height()) {
-      $('.top').addClass("top-active");
-    } else {
-      $('.top').removeClass("top-active");
-    };
-  });
-{% endhighlight %}
-
-***
-
-## Images
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/501.jpg">
-    <img src="/images/901.jpg">
-    <img src="/images/509.jpg">
-    <img src="/images/511.jpg">
-    <img src="/images/520.jpg">
-    <img src="/images/516.jpg">
-    <img src="/images/517.jpg">
-    <img src="/images/519.jpg">
-    <img src="/images/521.jpg">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-{% highlight markdown %}
-  <div class="gallery-box">
-    <div class="gallery">
-      <img src="/images/501.jpg">
-      <img src="/images/901.jpg">
-      <img src="/images/509.jpg">
-      <img src="/images/511.jpg">
-      <img src="/images/520.jpg">
-      <img src="/images/516.jpg">
-      <img src="/images/517.jpg">
-      <img src="/images/519.jpg">
-      <img src="/images/521.jpg">
+<section class="page-section" id="skills">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">SKILLS</h2>
+      <hr class="divider" />
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-window-sidebar fs-1 text-primary"></i></div>
+            <h3 class="h4 mb-2">Platforms</h3>
+            <p class="text-muted mb-0">
+              Salesforce Marketing Cloud<br>
+              Adobe Experience Manager<br>
+              Marketo
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-code-slash fs-1 text-primary"></i></div>
+            <h3 class="h4 mb-2">Engineering</h3>
+            <p class="text-muted mb-0">
+              HTML/CSS<br>
+              AMPscript<br>
+              JavaScript/JQuery/Vue.js<br>
+              Accessibility (WCAG 2.0)
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-card-image fs-1 text-primary"></i></div>
+            <h3 class="h4 mb-2">Graphic Design</h3>
+            <p class="text-muted mb-0">Create layouts and translate designs into responsive emails and
+              websites using tools like Photoshop, Figma, and Adobe XD.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-  </div>
-{% endhighlight %}
-
-![]({{site.baseurl}}/images/140.jpg)
-*Minimalism*
-
-{% highlight markdown %}
-  ![]({{site.baseurl}}/images/140.jpg)
-  *Minimalism*
-{% endhighlight %}
-
-***
-
-## Youtube Embed
-
-<p><iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
-
-{% highlight html %}
-  <iframe src="https://www.youtube.com/embed/Hd1_EXhr_fg" frameborder="0" allowfullscreen></iframe>
-{% endhighlight %}
-
-## Vimeo Embed
-
-<p><iframe src="https://player.vimeo.com/video/107654760" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
-
-{% highlight html %}
-  <iframe src="https://player.vimeo.com/video/107654760" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-{% endhighlight %}
+  </section>
+  <section class="page-section" id="recognitions" style="background: #efefef">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">RECOGNITIONS</h2>
+      <hr class="divider" />
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-lg-6 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-award fs-1 text-primary"></i></div>
+            <h3 class="h4 mb-2">Awards</h3>
+            <p class="text-muted mb-0">
+            <ul>
+              <li class="text-start">7X Leader in Loyalty Program Services by Forrester&nbsp;Research</li>
+              <li class="text-start">3X Nominated for 'Best Website'​ by Awwwards.com<br>
+                (<a href="https://www.awwwards.com/sites/bauer-hockey-1" target="_blank">Bauer</a>, <a
+                  href="https://www.awwwards.com/sites/travel-belize" target="_blank">Travel
+                  Belize</a>, <a href="https://www.awwwards.com/sites/riga-ghetto-holocaust-museum" target="_blank">Riga
+                  Ghetto Holocaust Museum</a>)</li>
+              <li class="text-start">Nominated for 'Sitecore People's Choice Awards'</li>
+              <li class="text-start"><a
+                  href="https://winners.webbyawards.com/2015/websites-and-mobile-sites/general-websites-and-mobile-sites/cultural-institutions/159773/riga-ghetto-museum-site-redesign"
+                  target="_blank">Nominated</a> for 19th Annual Webby Award</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="bi-trophy fs-1 text-primary"></i></div>
+            <h3 class="h4 mb-2">Certifications</h3>
+            <p class="text-muted mb-0">
+              <a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/4f5d47dbdc9c4b299281a53a1ef4d24d-1609555127824.png"
+                target="_blank">Email Marketing Certified - Hubspot</a><br>
+              <a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/6efac58fa4454c0fba4573bea2c62595-1609883784923.png"
+                target="_blank">Inbound Marketing Certified - Hubspot</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 ***

@@ -32,7 +32,7 @@ The examples of code presented in the next sections will need to be implemented 
 </script>
 {% endhighlight %}
 
-<hr>
+***
 
 ### Basics
 
@@ -117,7 +117,7 @@ while(id > 0) {
 var res = list.join(" / ");
 {% endhighlight %}
 
-<hr>
+***
 
 ### Managing subscribers
 
@@ -239,7 +239,7 @@ var res = api.updateItem("Subscriber", {
 });
 {% endhighlight %}
 
-<hr>
+***
 
 ### Interacting with Auto-Suppression Lists
 
