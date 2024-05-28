@@ -5,6 +5,7 @@ description:
 date: 2024-03-29 15:01:35 +0300
 image: '/images/p_04.jpg'
 tags: [Ampscript, Project]
+featured: true
 ---
 
 This sample pulls in data from an email into CloudPages inorder to capture a subscribers polling results (@Form_Submission). This snippet can be combined with <a href="/create-a-success-page-on-form-submission">Creating a success page</a>.
