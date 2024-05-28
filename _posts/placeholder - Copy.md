@@ -5,7 +5,6 @@ description: If you work with multiple Data Extensions in different folders, cre
 date: 2024-01-24 15:01:35 +0300
 image: '/images/p_01.jpg'
 tags: [SSJS, Project]
-featured: true
 ---
 {% highlight js %}
 <script runat="server">
