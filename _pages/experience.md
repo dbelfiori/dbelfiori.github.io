@@ -2,7 +2,7 @@
 layout: page
 title: Experience
 permalink: /experience/
-image: '/images/50.jpg'
+image: '/images/page_experience.jpg'
 ---
 
 I am a multi-disciplinary developer with over 12 years experience working with Enterprise level companies on their Email Marketing Campaigns, Landing Pages, and Websites.
