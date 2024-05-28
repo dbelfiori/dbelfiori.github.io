@@ -20,7 +20,7 @@ SET @DE_Lookup = 'Poll_submission_de_test'
 set @hasSubmitted = lookUp(@DE_Lookup, 'Poll_Submission', 'SubscriberKey', @SubscriberKey)
 
 IF NOT EMPTY(@hasSubmitted) THEN 
-    /* Display sucess message */
+    /* Display success message */
 ELSE
     /* If the user doesn't exist in @DE_Lookup, use InsertDE() to enter them into the Data Extension */
     InsertDE(@DE_Lookup,
