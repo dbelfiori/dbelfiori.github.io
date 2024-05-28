@@ -5,10 +5,6 @@ permalink: /experience/
 image: '/images/page_experience.jpg'
 ---
 
-I am a multi-disciplinary developer with over 12 years experience working with Enterprise level companies on their Email Marketing Campaigns, Landing Pages, and Websites.
-
-***
-
 ### SKILLS
 <div class="row">
   <div class="col col-4 col-d-6 col-t-12 text-center">
