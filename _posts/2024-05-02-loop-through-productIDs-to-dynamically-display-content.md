@@ -19,10 +19,10 @@ if @id_row_count > 0 then
     
     for @i = 1 TO @id_row_count do  
     Set @row = Row(@id_rowset, @i)
-    Set @value = Field(@row,1)
+    Set @display_product = Field(@row,1)
     ]%%
     
-    %%=v(@value)=%%<br>
+    %%=v(@display_product)=%%<br>
     
 %%[ next @i endif ]%%
 {% endhighlight %}
