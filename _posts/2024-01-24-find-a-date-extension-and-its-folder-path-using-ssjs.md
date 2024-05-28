@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Create a simple Data Extension search app
-description: If users in your instance of Salesforce Marketing Cloud struggle with finding Data Extensions, you can create a CloudPage app to help them navigate folders... 
+title: Find a Data Extension and it’s folder path using SSJS
+description: If you work with multiple Data Extensions in different folders, create a CloudPage app to help navigate... 
 date: 2024-01-24 15:01:35 +0300
 image: '/images/06.jpg'
 tags: [SSJS]
