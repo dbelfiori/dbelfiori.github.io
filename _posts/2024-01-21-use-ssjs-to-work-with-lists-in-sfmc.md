@@ -11,23 +11,22 @@ The examples of code presented in the next sections will need to be implemented 
 
 {% highlight js %}
 <script runat="server">
-	
-    Platform.Load("core", "1");
-	
-    var api = new Script.Util.WSProxy();
-	
-	try {
-	
-		/////////////////////////////////////////////////
-        ///// PASTE CODE HERE
-        /////////////////////////////////////////////////
 
-		Write(Stringify(res));
-		
-	} catch(error) {
-		Write(Stringify(error));
-	}
-	
+Platform.Load("core", "1");
+
+var api = new Script.Util.WSProxy();
+
+try {
+    /////////////////////////////////////////////////
+    ///// PASTE CODE HERE
+    /////////////////////////////////////////////////
+
+Write(Stringify(res));
+
+} catch(error) {
+    Write(Stringify(error));
+}
+
 </script>
 {% endhighlight %}
 

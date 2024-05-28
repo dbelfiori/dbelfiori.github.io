@@ -58,3 +58,5 @@ Variable.SetValue("@DEval", DEval);
 </div>
 </div>
 {% endhighlight %}
+
+![]({{site.baseurl}}/images/p_01-1.jpg)
