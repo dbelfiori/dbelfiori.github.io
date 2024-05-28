@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Loop through product ID's to display content
+title: Loop through Product ID's to dynamically display content
 description: 
 date: 2024-05-02 15:01:35 +0300
 image: '/images/p_09.jpg'
