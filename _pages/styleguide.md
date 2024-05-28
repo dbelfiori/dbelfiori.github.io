@@ -141,11 +141,11 @@ A paragraph looks like this — dolor amet cray stumptown fingerstache neutra fo
   </div>
 {% endhighlight %}
 
-![]({{site.baseurl}}/images/140.jpg)
+![]({{site.baseurl}}/images/404.jpg)
 *Minimalism*
 
 {% highlight markdown %}
-  ![]({{site.baseurl}}/images/140.jpg)
+  ![]({{site.baseurl}}/images/404.jpg)
   *Minimalism*
 {% endhighlight %}
 
