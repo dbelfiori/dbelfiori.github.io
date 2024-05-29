@@ -49,13 +49,13 @@
 
                     {% if site.data.settings.author.avatar %}
                     <div class="article__author">
-                      <a href="{{ site.baseurl }}/about/" aria-label="{{ site.data.settings.author.name }}"><img class="article__author-image lazy" data-src="{{ site.baseurl }}{{ site.data.settings.author.avatar }}" alt="{{ site.data.settings.author.name }}'s Picture"></a>
+                      <a href="{{ site.baseurl }}/experience/" aria-label="{{ site.data.settings.author.name }}"><img class="article__author-image lazy" data-src="{{ site.baseurl }}{{ site.data.settings.author.avatar }}" alt="{{ site.data.settings.author.name }}'s Picture"></a>
                     </div>
                     {% endif %}
 
                     <div class="article__bottom-meta">
                       {% if site.data.settings.author.name %}
-                        <a href="{{ site.baseurl }}/about/" class="article__author-link">{{ site.data.settings.author.name }}</a>
+                        <a href="{{ site.baseurl }}/experience/" class="article__author-link">{{ site.data.settings.author.name }}</a>
                       {% endif %}
                       {% if post.tags.size >= 1 %}
                       <span>in</span>
