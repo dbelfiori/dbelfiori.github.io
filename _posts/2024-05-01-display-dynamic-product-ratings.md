@@ -3,7 +3,7 @@ layout: post
 title: Display dynamic product ratings
 description: Ever wanted to show 4 out of 5 stars? Or better yet, 5 out of 5 stars? Here's how... 
 date: 2024-05-01 15:01:35 +0300
-image: '/images/p_08.jpg'
+image: '/images/p_06.jpg'
 tags: [Ampscript, Project]
 ---
 {% highlight js %}

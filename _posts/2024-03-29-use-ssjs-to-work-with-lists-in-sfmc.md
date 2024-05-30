@@ -3,7 +3,7 @@ layout: post
 title: Use SSJS to work with Lists in SFMC
 description: This article explains how to use WSProxy for working with subscriber Lists in server-side JavaScript in Salesforce Marketing Cloud...
 date: 2024-03-29 16:00:35 +0300
-image: '/images/p_02.jpg'
+image: '/images/p_04.jpg'
 tags: [SSJS]
 ---
 ### Get started

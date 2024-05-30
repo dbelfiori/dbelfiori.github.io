@@ -3,7 +3,7 @@ layout: post
 title: Collecting data on form submission
 description: Collect subscriber data on form submission...
 date: 2024-03-29 15:01:35 +0300
-image: '/images/p_04.jpg'
+image: '/images/p_03.jpg'
 tags: [Ampscript, Project]
 featured: true
 ---
