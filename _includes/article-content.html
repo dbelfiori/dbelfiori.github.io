@@ -17,7 +17,7 @@
             {% else %}
               {{ words | divided_by:180 }} min read
           {% endif %}
-          <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time>
+          <!-- <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}{{ post.date | date: date_format }}</time> -->
         </span>
       </div>
 
