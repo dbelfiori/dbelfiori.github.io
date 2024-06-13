@@ -38,7 +38,7 @@ image: '/images/page_experience.jpg'
   </div>
 </div>
 
-### TRUSTED BY
+<!-- ### TRUSTED BY
 
 <div class="row">
     <div class="col" style="max-width: 160px;"><img src="" width="100%"></div>
@@ -55,7 +55,7 @@ image: '/images/page_experience.jpg'
     <div class="col" style="max-width: 160px;"><img src="" width="100%"></div>
     <div class="col" style="max-width: 160px;"><img src="" width="100%"></div>
     <div class="col" style="max-width: 160px;"><img src="" width="100%"></div>
-</div>
+</div-->
 
 ### RECOGNITIONS
 
