@@ -1,29 +1,55 @@
 #-------------------------------
 # General Site Settings
-baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #-------------------------------
-# Build settings
+# Build Settings
 markdown: kramdown
 permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 8
-paginate_path: "/page/:num"
+paginate: 6
+paginate_path: "/blog/page/:num"
+
+
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  projects:
+    output: true
+    permalink: /project/:slug
 
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: ""
     values:
-      permalink: /:basename:output_ext
-
-include:
-  - _pages
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 sass:
   sass_dir: _sass
