@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Display dynamic product ratings
-description: Display a star rating system dynamically... 
+description: Display a star rating system dynamically. 
 date: 2024-05-01 15:01:35 +0300
 date:   2020-11-08 15:01:35 +0300
 image:  '/images/07.jpg'
