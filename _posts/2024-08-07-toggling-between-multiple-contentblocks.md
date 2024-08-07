@@ -2,7 +2,7 @@
 layout: post
 title: Toggling Between Multiple ContentBlocks
 description: Create buttons to display an array of ContentBlocks...
-date: 2024-06-03 15:01:35 +0300
+date: 2024-08-07 10:01:35 +0300
 image: '/images/p_03.jpg'
 tags: [Ampscript, SSJS, JS, CloudPage]
 featured: true
@@ -52,3 +52,31 @@ labelsArray.forEach((label, index) => {
 });
 </script>
 {% endhighlight %}
+
+<p>Output:</p>
+<style>
+    .content-div { display: none; }
+    #content1 { display: block; } /* Show content1 by default */
+    #buttonRow button {margin: 10px 0; width: 30px;border: 1px solid #ccc;}
+</style>
+
+<div id="content1" class="content-div">Display ContentBlock1 Content</div>
+<div id="content2" class="content-div">Display ContentBlock2 Content</div>
+<div id="content3" class="content-div">Display ContentBlock3 Content</div>
+<div class="button-row" id="buttonRow"></div>
+<script>
+    var content_list = "ContentBlock1, ContentBlock2, ContentBlock3";
+    var labelsArray = content_list.split(',');
+
+    var buttonRow = document.getElementById('buttonRow');
+
+    labelsArray.forEach((label, index) => {
+        var button = document.createElement('button');
+        button.textContent = index + 1;
+        button.addEventListener('click', () => {
+            document.querySelectorAll('.content-div').forEach(div => div.style.display = 'none');
+            document.getElementById(`content${index + 1}`).style.display = 'block';
+        });
+        buttonRow.appendChild(button);
+    });
+</script>
