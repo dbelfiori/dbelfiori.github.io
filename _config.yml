@@ -27,7 +27,7 @@ collections:
     permalink: /code-samples/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /projects/:slug
 
 # Pages Path
 defaults:
