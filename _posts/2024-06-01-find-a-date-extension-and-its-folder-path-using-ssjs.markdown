@@ -60,8 +60,10 @@ Variable.SetValue("@DEval", DEval);
 </div>
 {% endhighlight %}
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/05-1.jpg" loading="lazy" alt="">
+<div class="sample-output">
+  <div class="gallery-box">
+    <div class="gallery">
+      <img src="/images/05-1.jpg" loading="lazy" alt="">
+    </div>
   </div>
 </div>
