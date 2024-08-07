@@ -2,32 +2,32 @@
 layout: default
 ---
 
-<!-- begin hero -->
-{% if page.image %}
-<section class="hero">
-  <div class="hero__inner">
-    <div class="hero__image">
-      <img class="lazy" data-src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+<div class="container">
+  <div class="row">
+
+    <div class="col col-12">
+      <div class="page-head">
+        <h1 class="page-title">{{ page.title | escape }}</h1>
+        {% if page.description %}
+          <p class="page-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
     </div>
-    <div class="hero__content">
-      <h1 class="hero__title">{{ page.title }}</h1>
+
+    {%if page.image %}
+    <div class="col col-12">
+      <div class="page-image animate">
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+      </div>
     </div>
+    {% endif %}
+
   </div>
-</section>
-{% else %}
-<section class="hero-without-image">
-  <div class="hero-inner">
-    <div class="hero-content">
-      <h1 class="hero__title">{{ page.title }}</h1>
-    </div>
-  </div>
-</section>
-{% endif %}
-<!-- begin hero -->
+</div>
 
 <!-- begin page -->
-<div class="container">
-  <article class="page animate">
+<div class="container animate">
+  <article class="page">
     <div class="page__content">
       {{ content }}
     </div>
