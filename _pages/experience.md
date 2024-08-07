@@ -2,12 +2,40 @@
 layout: page
 title: Experience
 permalink: /Experience/
-image: '/images/01-2.jpg'
+image: ''
 ---
 
-Leverage agile frameworks to provide a robust Hugo Sousa synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-Collaboratively administrate turnkey channels whereas virtual e-tailers. Objectively seize scalable metrics whereas proactive e-services. Seamlessly empower fully researched growth strategies and interoperable internal or “organic” sources.
+<div class="row">
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Platforms</h3>
+      <p>
+        Salesforce Marketing Cloud<br>
+        Adobe Experience Manager<br>
+        Marketo
+      </p>
+    </div>
+  </div>
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Engineering</h3>
+      <p>
+        HTML/CSS<br>
+        AMPscript<br>
+        JavaScript/JQuery/Vue.js<br>
+        Accessibility (WCAG 2.0)
+      </p>
+    </div>
+  </div>
+  <div class="col col-4 col-d-6 col-t-12 text-center">
+    <div>
+      <h3>Graphic Design</h3>
+      <p>Create layouts and translate designs into responsive emails and
+        websites using tools like Photoshop, Figma, and Adobe XD.
+      </p>
+    </div>
+  </div>
+</div>
 
 <div class="gallery-box">
   <div class="gallery">
@@ -18,15 +46,9 @@ Collaboratively administrate turnkey channels whereas virtual e-tailers. Objecti
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-Completely synergize resource taxing relationships via premier niche markets. Cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+> Recognitions
+7X Leader in Loyalty Program Services by Forrester&nbsp;Research3X Nominated for 'Best Website'​ by Awwwards.com<br>
+(<a href="https://www.awwwards.com/sites/bauer-hockey-1" target="_blank">Bauer</a>, <a href="https://www.awwwards.com/sites/travel-belize" target="_blank">Travel Belize</a>, <a href="https://www.awwwards.com/sites/riga-ghetto-holocaust-museum" target="_blank">Riga Ghetto Holocaust Museum</a>)Nominated for 'Sitecore People&rsquo;s Choice Awards'<a href="https://winners.webbyawards.com/2015/websites-and-mobile-sites/general-websites-and-mobile-sites/cultural-institutions/159773/riga-ghetto-museum-site-redesign" target="_blank">Nominated</a> for 19th Annual Webby Award
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
-
-Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures.
-
-![Sea]({{site.baseurl}}/images/106.jpg)
-*Photo by [Alyssa Strohmann](https://unsplash.com/photos/2r2RUsEU1Aw) on [Unsplash](https://unsplash.com/)*
-
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
-
-Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies without market-driven best practices.
+> Certifications
+<a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/4f5d47dbdc9c4b299281a53a1ef4d24d-1609555127824.png" target="_blank">Email Marketing Certified - Hubspot</a><br><a href="https://hubspot-academy.s3.amazonaws.com/prod/tracks/user-certificates/6efac58fa4454c0fba4573bea2c62595-1609883784923.png" target="_blank">Inbound Marketing Certified - Hubspot</a>
