@@ -2,7 +2,6 @@
 layout: page
 title: Experience
 permalink: /experience/
-image: ''
 ---
 
 <div class="row">
