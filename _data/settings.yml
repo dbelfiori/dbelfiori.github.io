@@ -13,8 +13,8 @@ menu-settings:
       url: '/'
     - title: 'Experience'
       url: '/experience/'
-    - title: 'Projects'
-      url: '/tags/?tag=project'
+    - title: 'Code Samples'
+      url: '/tags/?tag=ampscript'
 #-------------------------------
 # Author Settings
 author:
