@@ -13,11 +13,11 @@ menu__settings:
     - title: 'Home'
       url: '/'
     - title: 'Experience'
-      url: '/Experience/'
+      url: '/experience/'
     - title: 'Work'
-      url: '/Work/'
+      url: '/work/'
     - title: 'Code Samples'
-      url: '/Code-Samples/'
+      url: '/code-samples/'
 
 #-------------------------------
 # Author Settings
@@ -122,7 +122,7 @@ footer_menu__settings:
     - title: 'Projects'
       url: '/projects/'
     - title: 'Code Samples'
-      url: '/Code-Samples/'
+      url: '/code-samples/'
     - url: '/about/'
       title: 'About'
     - url: '/contact/'

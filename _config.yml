@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseurl: "" # the subpath of your site, e.g. /Code-Samples
+baseurl: "" # the subpath of your site, e.g. /code-samples
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -13,7 +13,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 6
-paginate_path: "/Code-Samples/page/:num"
+paginate_path: "/code-samples/page/:num"
 
 
 #-------------------------------
@@ -24,7 +24,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /Code-Samples/:slug
+    permalink: /code-samples/:slug
   projects:
     output: true
     permalink: /project/:slug
