@@ -12,10 +12,10 @@ menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Work'
-      url: '/Work/'
     - title: 'Experience'
       url: '/Experience/'
+    - title: 'Work'
+      url: '/Work/'
     - title: 'Code Samples'
       url: '/Code-Samples/'
 
