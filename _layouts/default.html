@@ -4,7 +4,6 @@
 {% include head.html %}
 
 <body>
-
   {% if site.data.settings.google-analytics %}
     {% include google-analytics.html %}
   {% endif %}
@@ -17,10 +16,9 @@
   </main>
   <!-- end content -->
 
+  <div class="top" title="Top"><i class="fa-solid fa-chevron-up"></i></div>
   {% include footer.html %}
-
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+  {% include javascripts.html %}
 </body>
 
 </html>

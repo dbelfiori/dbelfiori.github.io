@@ -1,3 +1,4 @@
+/* Base */
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -6,30 +7,47 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  overflow-x: hidden;
-  color: var(--text-color);
-  background-color: var(--background-color);
+  color: $text-color;
+  background-color: $background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  &.disable-animation {
-    *, *::after, *::before {
-      transition: none !important;
+  overflow-x: hidden;
+  &.is-in {
+    &::after {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
     }
   }
-
-  @media only screen and (max-width: $desktop) {
-    font-size: 17px;
+  &::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $dark;
+    z-index: 999;
+    transition: 1s;
+  }
+  input, textarea {
+    border: 1px solid $light-gray;
+    outline: none;
   }
 
   @media only screen and (max-width: $mobile) {
     font-size: 16px;
+    line-height: 29px;
   }
 }
 
+::placeholder {
+  color: $gray;
+}
+
 *::selection {
-  color: var(--dark);
-  background-color: var(--brand-color);
+  color: $white;
+  background-color: rgba($brand-color, 0.7);
 }
 
 h1,
@@ -42,7 +60,7 @@ h6 {
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   letter-spacing: $heading-letter-spacing;
-  color: var(--heading-font-color);
+  color: $heading-color;
 }
 
 h1 {
@@ -71,110 +89,90 @@ h6 {
 
 blockquote {
   position: relative;
-  margin: 64px 0;
-  font-family: $heading-font-family;
-  font-size: 32px;
-  line-height: 1.6;
+  padding: 34px 20px 34px 64px;
+  margin-bottom: 0;
+  font-size: 28px;
+  line-height: 36px;
   font-weight: 900;
-  color: var(--heading-font-color);
+  color: $white;
 
-  &::after {
+  &:before {
     content: '\201C';
     position: absolute;
-    top: 0.15em;
-    left: 0;
-    z-index: -1;
-    font-family: $heading-font-family;
-    font-size: 6em;
-    line-height: 0;
-    opacity: 0.08;
+    top: 0.59em;
+    left: -0.01em;
+    font-size: 4em;
+    color: $brand-color;
   }
 
   p {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   cite {
-    display: inline-block;
-    margin-top: 18px;
-    font-family: $base-font-family;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 16px;
     font-style: normal;
-    color: var(--heading-font-color);
-
+    font-weight: 700;
+    color: $text-color;
+    &:before {
+      content: '\2014' '\00a0';
+    }
   }
 
   @media only screen and (max-width: $mobile) {
-    margin: 40px 0;
-    font-size: 21px;
+    padding: 20px 20px 20px 48px;
+    font-size: 20px;
+    line-height: 28px;
   }
 }
 
 pre {
   overflow: auto;
-  padding: 15px;
-  margin-bottom: 0;
+  padding: 20px;
   font-size: 14px;
   white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-all;
-  color: var(--heading-font-color);
 }
 
-img,
-.lightense-wrap {
+code[class*=language-], pre[class*=language-] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: inherit;
+}
+
+img, .lightense-wrap {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
-}
-
-img,
-.lightense-wrap,
-.gallery {
   &+em {
-    display: block;
-    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0 0;
     font-size: 12px;
-    line-height: 100%;
     font-style: normal;
-    font-weight: normal;
+    line-height: 1;
     text-align: center;
-    color: var(--text-alt-color);
-  
-    a {
-      font-weight: 500;
-      border-bottom: 1px solid var(--border-color);
-      transition: $global-transition;
-
-      &:hover {
-        color: var(--link-color);
-        border-color: var(--link-color-hover);
-      }
-    }
-  
-    @media only screen and (max-width: $mobile) {
-      margin-top: 16px;
-    }
+    color: $text-color;
   }
 }
 
 a {
   text-decoration: none;
-  color: var(--link-color);
+  color: $text-color;
   transition: $global-transition;
-
   &:hover {
-    color: var(--link-color-hover);
+    color: $brand-color;
   }
 }
 
 hr {
+  display: block;
   width: 100%;
   height: 1px;
-  margin: 60px 0;
+  margin: 64px 0;
   border: 0;
-  background: var(--background-alt-color);
+  background: $dark;
 }
 
 .table-container {
@@ -185,26 +183,24 @@ hr {
 
 table {
   font-size: 12px;
-  color: var(--dark);
+  color: rgba($text-color, .7);
   width: 100%;
   border-width: 1px;
-  border-color: var(--background-alt-color);
+  border-color: $dark;
   border-collapse: collapse;
-  color: var(--heading-font-color);
 }
 
 table th {
-  padding: 10px;
+  padding: 12px;
   font-size: 16px;
   text-align: left;
-  border: 1px solid var(--th-color);
-  color: var(--heading-font-color);
-  font-weight: 700;
-  background-color: var(--th-color);
+  border: 1px solid $dark;
+  color: $white;
+  background-color: $blue-dark;
 }
 
 table tr {
-  background-color: var(--tr-color);
+  background-color: $dark;
   transition: all .3s ease;
   &:nth-child(even) {
     background-color: transparent;
@@ -212,14 +208,52 @@ table tr {
 }
 
 table td {
-  padding: 10px;
+  padding: 12px;
   font-size: 14px;
-  border: 1px solid var(--background-alt-color);
+  border: 1px solid $dark;
+}
+
+table tr:hover {
+  color: $white;
+}
+
+.gallery-box {
+  margin-bottom: 30px;
+  em {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 0 0;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 1;
+    text-align: center;
+    color: $text-color;
+    a {
+      border-bottom: 2px solid rgba($text-color, .1);
+      &:hover {
+        border-color: $brand-color;
+        color: $text-color;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .lazy {
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: 0.4s ease;
 }
 
 .lazy.loaded {
@@ -227,5 +261,5 @@ table td {
 }
 
 .lightense-backdrop {
-  background-color: var(--background-color) !important;
+  background-color: $background-color !important;
 }

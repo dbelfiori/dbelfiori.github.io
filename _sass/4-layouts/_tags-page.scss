@@ -1,40 +1,42 @@
-/* Tags */
-.tags__inner {
-  margin-bottom: 36px;
-
+/* Tags Page */
+.tags {
   &.is-hidden {
     display: none;
   }
+}
 
-  .tag__info {
-    margin-bottom: 48px;
-    text-align: center;
-  }
-  
-  .tag__name {
-    margin-bottom: 20px;
-    font-size: 72px;
-    line-height: 0.9;
-    text-transform: capitalize;
-  }
-  
-  .tag__counter {
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: 1.6px;
-    text-transform: uppercase;
-  }
-
+.archive-box {
+  position: relative;
+  margin: 50px 0 80px;
+  text-align: center;
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 16px;
+    margin: 20px 0 50px;
+  }
+}
 
-    .tag__info {
-      margin-bottom: 40px;
-    }
+.archive-meta {
+  font-size: 16px;
+  color: rgba($text-color, .6);
+}
 
-    .tag__name {
-      font-size: 40px;
-    }
+.archive-title {
+  position: relative;
+  margin: 0;
+  font-size: 47px;
+  line-height: 57px;
+  @media only screen and (max-width: $mobile) {
+    font-size: 40px;
+    line-height: 52px;
+  }
+}
+
+.archive-description {
+  max-width: 600px;
+  margin: 10px auto 0;
+  font-size: 16px;
+  line-height: 32px;
+  @media only screen and (max-width: $mobile) {
+    margin: 5px auto 0;
+    line-height: 28px;
   }
 }
