@@ -3,7 +3,7 @@ layout: post
 title: Toggling Between Multiple ContentBlocks
 description: Create buttons to display an array of ContentBlocks...
 date: 2024-08-07 10:01:35 +0300
-image: '/images/p_03.jpg'
+image: '/images/p_04.jpg'
 tags: [Ampscript, SSJS, JS, CloudPage]
 featured: true
 ---
