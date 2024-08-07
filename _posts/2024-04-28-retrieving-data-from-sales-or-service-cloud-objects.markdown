@@ -39,7 +39,7 @@ ENDIF
 ]%%
 {% endhighlight %}
 
-An example of if your user could exist in two possible Salesforce Objects.
+In the above example, if the @AppID is not found, we use a fallback of @ProspectID to return user details.
 {% highlight js %}
 %%[
 SET @AppID = AttributeValue("ApplicationID")
