@@ -51,8 +51,8 @@ mailchimp__button__text: Get updates
 #-------------------------------
 # Projects Settings
 projects__settings:
-  projects__title: Latest works
-  projects__description: I shows only the best websites and portfolios built completely with passion, simplicity & creativity!
+  projects__title: Projects
+  projects__description: Projects I've worked on to help develop emails and websites, built with passion & creativity!
 
 
 #-------------------------------
