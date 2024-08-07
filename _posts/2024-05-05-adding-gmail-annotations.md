@@ -29,3 +29,12 @@ Basic setup for adding Gmail Annotations. You can also use Google's <a href="htt
     <meta itemprop="availabilityEnds" content="4000-12-31T23:59:59-0800" />
 </div>
 {% endhighlight %}
+
+<div class="sample-output">
+    <h2>Output:</h2>
+  <div class="gallery-box">
+    <div class="gallery">
+      <img src="/images/14-1.jpg" loading="lazy" alt="">
+    </div>
+  </div>
+</div>
