@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-permalink: /experience/
+permalink: /Experience/
 image: '/images/01-2.jpg'
 ---
 

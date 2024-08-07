@@ -27,7 +27,7 @@ author:
   author__avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "ion-logo-linkedin", link: "https://github.com"}
+- {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/dominicbelfiori/"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
@@ -95,7 +95,7 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Recent Posts
+  blog__title: Recent Works
   blog__description:
 
 
@@ -121,8 +121,8 @@ footer_menu__settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Code Samples'
+      url: '/Code-Samples/'
     - url: '/about/'
       title: 'About'
     - url: '/contact/'
