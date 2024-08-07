@@ -8,8 +8,7 @@ tags: [Ampscript, SSJS, JS, CloudPage]
 featured: true
 ---
 
-This sample pulls in data from an email into CloudPages inorder to capture a subscribers polling results (@Form_Submission). This snippet can be combined with <a href="/create-a-success-page-on-form-submission">Creating a success page</a>.
-
+This sample pulls in and toggles between multiple content blocks by Customer Key (@content_list).
 {% highlight js %}
 <style>
     .content-div { display: none; }
@@ -17,16 +16,18 @@ This sample pulls in data from an email into CloudPages inorder to capture a sub
     #buttonRow button {margin: 10px 0; width: 30px;border: 1px solid #ccc;}
 </style>
 %%[
+  Set @content_list = 'ContentBlock1,ContentBlock2,ContentBlock3'
+
   Set @id_rowset = BuildRowsetFromString(@content_list,",")
   set @id_row_count = RowCount(@id_rowset)
   if @id_row_count > 0 then
 
     for @i = 1 TO @id_row_count do
     Set @row = Row(@id_rowset, @i)
-    Set @display_product = Field(@row,1)
+    Set @display_content = Field(@row,1)
   ]%%
 
-<div id="content%%=v(@i)=%%" class="content-div">%%=ContentBlockByKey(@display_product)=%%</div>
+<div id="content%%=v(@i)=%%" class="content-div">%%=ContentBlockByKey(@display_content)=%%</div>
 %%[ next @i endif ]%%
 <div class="button-row" id="buttonRow"></div>
 
