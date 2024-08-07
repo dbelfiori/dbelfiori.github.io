@@ -24,7 +24,7 @@ menu__settings:
 author:
   author__name: Dominic Belfiori
   author__bio: 2X Certified email developer with a focus on Salesforce Marketing Cloud.
-  author__avatar: '/images/01-1.jpg'
+  author__avatar: '/images/dominic-belfiori.jpg'
 
 social:
 - {icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/dominicbelfiori/"}
@@ -119,17 +119,10 @@ footer_menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
-    - title: 'Projects'
-      url: '/projects/'
+    - title: 'Experience'
+      url: '/Experience/'
     - title: 'Code Samples'
       url: '/code-samples/'
-    - url: '/about/'
-      title: 'About'
-    - url: '/contact/'
-      title: 'Contact'
-    - url: '/elements/'
-      title: 'Elements'
-
 
 #-------------------------------
 # Contact Settings
