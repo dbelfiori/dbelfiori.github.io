@@ -4,7 +4,7 @@ title: Collecting data on form submission
 description: Collect subscriber data on form submission...
 date: 2024-06-03 15:01:35 +0300
 image: '/images/03.jpg'
-tags: [Ampscript, Project, CloudPage]
+tags: [Ampscript, CloudPage]
 ---
 
 This sample pulls in data from an email into CloudPages inorder to capture a subscribers polling results (@Poll_Submission). This snippet can be combined with <a href="/create-a-success-page-on-form-submission">Creating a success page</a>.

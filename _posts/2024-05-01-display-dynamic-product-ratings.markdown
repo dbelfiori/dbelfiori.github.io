@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Display dynamic product ratings
-description: Ever wanted to show 4 out of 5 stars? Or better yet, 5 out of 5 stars? Here's how... 
+description: Display a star rating system dynamically... 
 date: 2024-05-01 15:01:35 +0300
 date:   2020-11-08 15:01:35 +0300
 image:  '/images/07.jpg'
-tags: [Ampscript, Project]
+tags: [Ampscript]
 ---
 
 {% highlight js %}

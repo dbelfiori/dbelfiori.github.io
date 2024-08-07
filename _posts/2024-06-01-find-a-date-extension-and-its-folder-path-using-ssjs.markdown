@@ -5,7 +5,7 @@ description: If you work with multiple Data Extensions in different folders, cre
 date: 2024-06-01 15:01:35 +0300
 date:   2020-11-10 15:01:35 +0300
 image:  '/images/05.jpg'
-tags: [SSJS, Project, CloudPage]
+tags: [SSJS, CloudPage]
 ---
 
 {% highlight js %}

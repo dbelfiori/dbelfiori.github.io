@@ -4,7 +4,7 @@ title: Create a Success Page on Form Submission
 description: Keep the user on the same page after submitting a form using RequestParameter()... 
 date: 2024-06-02 15:01:35 +0300
 image: '/images/04.jpg'
-tags: [Ampscript, Project, CloudPage]
+tags: [Ampscript, CloudPage]
 ---
 
 Basic Ampscript to render a success page after clicking the form Submit button.

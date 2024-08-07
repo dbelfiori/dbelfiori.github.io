@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Loop through Product ID's to dynamically display content
-description: 
+title: Loop through ContentBlock's to dynamically display content
+description: Loop through an array of content blocks...
 date: 2024-05-02 15:01:35 +0300
 date:   2020-11-09 15:01:35 +0300
 image:  '/images/06.jpg'
-tags: [Ampscript, Project]
+tags: [Ampscript]
 ---
 
 {% highlight js %}
