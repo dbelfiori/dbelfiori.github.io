@@ -17,7 +17,7 @@ This sample pulls in data from an email into CloudPages inorder to capture a sub
     #buttonRow button {margin: 10px 0; width: 30px;border: 1px solid #ccc;}
 </style>
 %%[
-  Set @id_rowset = BuildRowsetFromString(@module_list,",")
+  Set @id_rowset = BuildRowsetFromString(@content_list,",")
   set @id_row_count = RowCount(@id_rowset)
   if @id_row_count > 0 then
 
@@ -25,19 +25,19 @@ This sample pulls in data from an email into CloudPages inorder to capture a sub
     Set @row = Row(@id_rowset, @i)
     Set @display_product = Field(@row,1)
   ]%%
-    <div id="content%%=v(@i)=%%" class="content-div">%%=ContentBlockByKey(@display_product)=%%</div>
 
+<div id="content%%=v(@i)=%%" class="content-div">%%=ContentBlockByKey(@display_product)=%%</div>
 %%[ next @i endif ]%%
 <div class="button-row" id="buttonRow"></div>
 
 <script runat="server">
     Platform.Load("Core", "1");
-    var module_list = Variable.GetValue("@module_list");
+    var content_list = Variable.GetValue("@content_list");
 </script>
 
 <script>
-var module_list = "<script runat='server'>Write(module_list)</script>";
-var labelsArray = module_list.split(',');
+var content_list = "<script runat='server'>Write(content_list)</script>";
+var labelsArray = content_list.split(',');
 
 var buttonRow = document.getElementById('buttonRow');
 
