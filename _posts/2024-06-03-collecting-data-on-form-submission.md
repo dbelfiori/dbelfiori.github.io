@@ -8,7 +8,7 @@ tags: [Ampscript, Project, CloudPage]
 featured: true
 ---
 
-This sample pulls in data from an email into CloudPages inorder to capture a subscribers polling results (@Form_Submission). This snippet can be combined with <a href="/create-a-success-page-on-form-submission">Creating a success page</a>.
+This sample pulls in data from an email into CloudPages inorder to capture a subscribers polling results (@Poll_Submission). This snippet can be combined with <a href="/create-a-success-page-on-form-submission">Creating a success page</a>.
 
 {% highlight js %}
 %%[
