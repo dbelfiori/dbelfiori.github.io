@@ -12,7 +12,7 @@ layout: default
           {% if page.tags.size >= 1 %}
             <div class="post-tags">
               {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag">{{ tag }}</a>
+                <a href="#" class="post__tag">{{ tag }}</a>
               {% endfor %}
             </div>
           {% endif %}
@@ -20,7 +20,7 @@ layout: default
           <h1 class="post-title">{{ page.title | escape }}</h1>
   
           <div class="post-meta">
-            <a href="{{site.baseurl}}/about/" class="post-author-link">{{site.data.settings.author.author__name}}</a> –
+            {{site.data.settings.author.author__name}} –
             <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
           </div>
 
