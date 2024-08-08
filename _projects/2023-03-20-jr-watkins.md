@@ -12,7 +12,7 @@ image: '/images/project-bauer.jpg'
         <strong><a href="https://jrwatkins.com/">J.R. Watkins</a>
         </strong>
     </li>
-    <li>Service:
+    <li>Role:
         <strong>Frontend Developer</strong>
     </li>
 </ul>

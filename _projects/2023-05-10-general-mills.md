@@ -13,7 +13,7 @@ image: '/images/project-bauer.jpg'
         <strong><a href="https://www.generalmills.com/">General Mills</a>
         </strong>
     </li>
-    <li>Service:
+    <li>Role:
         <strong>Frontend Developer</strong>
     </li>
 </ul>

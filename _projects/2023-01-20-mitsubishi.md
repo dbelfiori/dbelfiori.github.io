@@ -12,7 +12,7 @@ image: '/images/project-bauer.jpg'
         <strong><a href="https://www.mitsubishicars.com/">Mitsubishi</a>
         </strong>
     </li>
-    <li>Service:
+    <li>Role:
         <strong>Email & Frontend Developer</strong>
     </li>
 </ul>

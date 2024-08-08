@@ -12,7 +12,9 @@ image: '/images/project-jm-smuckers.jpg'
         <strong><a href="https://www.jmsmucker.com/">J.M. Smucker</a>
         </strong>
     </li>
-    <li>Service:
+    <li>Role:
         <strong>Email Developer</strong>
     </li>
 </ul>
+
+Created email templates and built global components for agency partner.
