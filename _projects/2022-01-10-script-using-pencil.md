@@ -6,7 +6,7 @@ image: '/images/project-bauer-thumb.jpg'
 hero: '/images/project-bauer-hero.jpg'
 ---
 
-In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerumano occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et sed potionibus, minorem voluptatem. Ego quoque, inquit, didicerim libentius si table quiduse proactive domination.
+Working with Bauer, I helped build and maintain a custom Content Management System. As well as building out custom landing pages, and providing weekly website content updates.
 
 <ul class="list-inline item-details">
     <li>Client:
@@ -14,8 +14,7 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
         </strong>
     </li>
     <li>Service:
-        <strong><a href="http://startbootstrap.com">Web Development</a>
+        <strong><a href="http://startbootstrap.com">Frontend Developer</a>
         </strong>
     </li>
 </ul>
-***
