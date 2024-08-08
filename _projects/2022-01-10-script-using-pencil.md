@@ -6,7 +6,7 @@ image: '/images/project-bauer-thumb.jpg'
 hero: '/images/project-bauer-hero.jpg'
 ---
 
-Working with Bauer, I helped build and maintain a custom Content Management System. As well as building out custom landing pages, and providing weekly website content updates.
+Working with Bauer, I helped build and maintain a custom Content Management System. As well as creating custom landing pages, and providing support.
 
 <ul class="list-inline item-details">
     <li>Client:
