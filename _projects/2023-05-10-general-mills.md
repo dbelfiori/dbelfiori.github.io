@@ -1,6 +1,6 @@
 ---
 title: General Mills
-date: 2022-01-07 08:01:35 +0300
+date: 2023-05-10 08:01:35 +0300
 subtitle: Frontend Developer
 image: '/images/project-bauer.jpg'
 
