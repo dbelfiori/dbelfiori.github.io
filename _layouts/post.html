@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="post-head">
+  <div class="container">
+    <div class="row">
+
+      <div class="col col-12">
+        <div class="post-info">
+
+          {% if page.tags.size >= 1 %}
+            <div class="post-tags">
+              {% for tag in page.tags %}
+                <a href="#" class="post__tag">{{ tag }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+  
+          <h1 class="post-title">{{ page.title | escape }}</h1>
+  
+          <div class="post-meta">
+            {{site.data.settings.author.author__name}} –
+            <time class="post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+
+  <article class="post">
+
+    <div class="post__content">
+      {{ content }}
+    </div>
+
+  </article>
+</div>
+<!-- end post -->
+
+{% include related-posts.html %}
+
+{% if site.data.settings.disqus-identifier %}
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        {% include disqus-comments.html %} 
+      </div>
+    </div>
+  </div>
+{% endif %}
