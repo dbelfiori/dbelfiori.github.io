@@ -5,7 +5,7 @@ description: Here's how I use RetrieveSalesforceObjects() to return user data fr
 date: 2024-04-28 15:01:35 +0300
 date:   2020-05-29 18:05:55 +0300
 image: '/images/post_retrieving-data.jpg'
-tags: [Ampscript]
+tags:   [fashion, study, travel, ampscript, HTML]
 ---
 
 {% highlight js %}
