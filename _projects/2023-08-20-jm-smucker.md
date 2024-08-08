@@ -17,4 +17,4 @@ image: '/images/project-jm-smuckers.jpg'
     </li>
 </ul>
 
-Created email templates and built global components for agency partner.
+Created email templates and built global components in Salesforce Marketing Cloud
