@@ -3,7 +3,7 @@ layout: post
 title: Create a Success Page on Form Submission
 description: Keep the user on the same page after submitting a form using RequestParameter(). 
 date: 2024-06-02 15:01:35 +0300
-image: '/images/04.jpg'
+image: '/images/post_success-page.jpg'
 tags: [Ampscript, CloudPage]
 ---
 

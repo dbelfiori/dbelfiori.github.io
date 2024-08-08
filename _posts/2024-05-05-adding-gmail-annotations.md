@@ -3,7 +3,7 @@ layout: post
 title: Adding Gmail Annotations
 description: Show off your promo code or discount by adding annotations to Gmail. 
 date: 2024-05-05 15:01:35 +0300
-image: '/images/14.jpg'
+image: '/images/post_gmail-annotations.jpg'
 tags: [Email]
 ---
 

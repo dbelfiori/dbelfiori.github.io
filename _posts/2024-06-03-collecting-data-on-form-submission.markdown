@@ -3,7 +3,7 @@ layout: post
 title: Collecting data on form submission
 description: Collect subscriber data on form submission.
 date: 2024-06-03 15:01:35 +0300
-image: '/images/03.jpg'
+image: '/images/post_data-collection.jpg'
 tags: [Ampscript, CloudPage]
 ---
 
