@@ -51,7 +51,7 @@ mailchimp__button__text: Get updates
 #-------------------------------
 # Projects Settings
 projects__settings:
-  projects__title: Projects
+  projects__title: Past Work
   projects__description: Projects I've worked on to help develop emails and websites, built with passion & creativity!
 
 
@@ -95,7 +95,7 @@ testimonial__items:
 #-------------------------------
 # Blog Section
 blog__settings:
-  blog__title: Recent Works
+  blog__title: Recent Posts
   blog__description:
 
 
