@@ -68,12 +68,31 @@
 
   <div class="container">
     <div class="row">
-      <div class="col col-12">
-        <div class="footer__info">
-          <div class="footer__info-box">
-            <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>.</div>
-            <div class="top" title="Top"><i class="ion ion-ios-arrow-up"></i></div>
-          </div>
+      <div class="scroller" data-direction="right" data-speed="slow">
+        <div class="scroller__inner">
+          <img src="https://dominicbelfiori.com/assets/images/project-usbank.jpg" alt="U.S. Bank" />
+          <img src="https://dominicbelfiori.com/assets/images/project-target.jpg" alt="Target.com" />
+          <img src="https://dominicbelfiori.com/assets/images/project-wyndham.jpg" alt="Wyndham Hotel Group" />
+          <img src="https://dominicbelfiori.com/assets/images/project-amtrak.jpg" alt="Amtrak" />
+          <img src="https://dominicbelfiori.com/assets/images/project-uhc.jpg" alt="United Healthcare" />
+          <img src="https://dominicbelfiori.com/assets/images/project-jm-smuckers.jpg" alt="J.M. Smuckers" />
+          <img src="https://dominicbelfiori.com/assets/images/project-best-buy.jpg" alt="Best Buy" />
+          <img src="https://dominicbelfiori.com/assets/images/project-pepsico.jpg" alt="Pepsi Co." />
+          <img src="https://dominicbelfiori.com/assets/images/project-general-mills.jpg" alt="General Mills" />
+          <img src="https://dominicbelfiori.com/assets/images/project-petco.jpg" alt="Petco" />
+          <img src="https://dominicbelfiori.com/assets/images/project-bac.jpg" alt="Bank of America" />
+          <img src="https://dominicbelfiori.com/assets/images/project-usa-gov.jpg" alt="U.S. Government" />
+          <img src="https://dominicbelfiori.com/assets/images/project-nhl.jpg" alt="NHL" />
+          <img src="https://dominicbelfiori.com/assets/images/project-bauer.jpg" alt="Bauer" />
+          <img src="https://dominicbelfiori.com/assets/images/project-skittles.jpg" alt="Skittles" />
+          <img src="https://dominicbelfiori.com/assets/images/project-peiwei.jpg" alt="Pei Wei" />
+          <img src="https://dominicbelfiori.com/assets/images/project-express.jpg" alt="Express" />
+          <img src="https://dominicbelfiori.com/assets/images/project-jr-watkins.jpg" alt="J.R. Watkins" />
+          <img src="https://dominicbelfiori.com/assets/images/project-belize.jpg" alt="TravelBelize.org" />
+          <img src="https://dominicbelfiori.com/assets/images/project-alz.jpg" alt="Alz.org" />
+          <img src="https://dominicbelfiori.com/assets/images/project-ace.jpg" alt="Ace Hardware" />
+          <img src="https://dominicbelfiori.com/assets/images/project-medifast.jpg" alt="Medifast" />
+          <img src="https://dominicbelfiori.com/assets/images/project-mitsubishi.jpg" alt="Mitsubishi" />
         </div>
       </div>
     </div>
@@ -81,3 +100,33 @@
 
 </footer>
 <!-- end footer -->
+ <script>
+    // client carousel
+    const scrollers = document.querySelectorAll(".scroller");
+
+    // If a user hasn't opted in for recuded motion, then we add the animation
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
+    }
+
+    function addAnimation() {
+      scrollers.forEach((scroller) => {
+        // add data-animated="true" to every `.scroller` on the page
+        scroller.setAttribute("data-animated", true);
+
+        // Make an array from the elements within `.scroller-inner`
+        const scrollerInner = scroller.querySelector(".scroller__inner");
+        const scrollerContent = Array.from(scrollerInner.children);
+
+        // For each item in the array, clone it
+        // add aria-hidden to it
+        // add it into the `.scroller-inner`
+        scrollerContent.forEach((item) => {
+          const duplicatedItem = item.cloneNode(true);
+          duplicatedItem.setAttribute("aria-hidden", true);
+          scrollerInner.appendChild(duplicatedItem);
+        });
+      });
+    }
+
+  </script>
