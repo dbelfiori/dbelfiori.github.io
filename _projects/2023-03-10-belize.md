@@ -18,7 +18,7 @@ image: '/images/project-bauer.jpg'
 <h3>Frontend Developer</h3>
 Frontend Developer in charge of website redesign and implementation of Wordpress.
 
-<h3>Technology</h3>
+<h2 style="text-align: center; margin-bottom: 10px;">Technology</h2>
 <ul class="list-inline item-details">
     <li>HTML</li>
     <li>CSS</li>
