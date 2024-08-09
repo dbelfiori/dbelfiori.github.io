@@ -3,7 +3,6 @@ layout: post
 title: Retrieving data from Sales or Service Cloud Objects
 description: Here's how I use RetrieveSalesforceObjects() to return user data from Sales or Service Cloud. 
 date: 2024-04-28 15:01:35 +0300
-date:   2020-05-29 18:05:55 +0300
 image: '/images/post_retrieving-data.jpg'
 tags: [ampscript]
 ---

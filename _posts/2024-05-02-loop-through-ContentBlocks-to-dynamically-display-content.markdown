@@ -3,7 +3,6 @@ layout: post
 title: Loop through ContentBlock's to dynamically display content
 description: Loop through an array of content blocks.
 date: 2024-05-02 15:01:35 +0300
-date:   2020-11-09 15:01:35 +0300
 image:  '/images/post_looping-content.jpg'
 tags: [ampscript]
 ---
@@ -22,7 +21,7 @@ if @id_row_count > 0 then
     Set @display_product = Field(@row,1)
     ]%%
     
-    %%=v(@display_product)=%%<br>
+    %%=ContentBlockByKey(@display_product)=%%<br>
     
 %%[ next @i endif ]%%
 {% endhighlight %}

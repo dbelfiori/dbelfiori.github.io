@@ -3,7 +3,6 @@ layout: post
 title: Find a Data Extension and it’s folder path using SSJS
 description: If you work with multiple Data Extensions in different folders, create a CloudPage app to help navigate. 
 date: 2024-06-01 15:01:35 +0300
-date:   2020-11-10 15:01:35 +0300
 image:  '/images/post_searching.jpg'
 tags: [ssjs, cloudpage]
 ---
