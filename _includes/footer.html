@@ -1,17 +1,15 @@
 <!-- begin footer -->
 <footer class="footer">
 
-  <div class="footer__gallery">
-    {% if site.data.settings.gallery %}
-    <div class="gallery">
-      {% for image in site.data.settings.gallery.gallery__images %}
-      <div class="gallery__image">
-        <img src="{{site.baseurl}}{{image.url}}" alt="{{image.alt}}" loading="lazy">
-      </div>
-      {% endfor %}
+  <<div class="container-fluid">
+    <div class="row">
+      <div class="col" style="height: 50px;background-color:#3771df;width: 20%;"></div>
+      <div class="col" style="height: 50px;background-color:#fbbd06;width: 20%;"></div>
+      <div class="col" style="height: 50px;background-color:#36ad53;width: 20%;"></div>
+      <div class="col" style="height: 50px;background-color:#da4235;width: 20%;"></div>
+      <div class="col" style="height: 50px;background-color:#54c1e2;width: 20%;"></div>
     </div>
-    {% endif %}
-  </div>
+</div>
 
   <div class="container">
     <div class="row">
