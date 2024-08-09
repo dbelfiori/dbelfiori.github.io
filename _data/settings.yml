@@ -14,7 +14,7 @@ menu__settings:
       url: '/'
     - title: 'Experience'
       url: '/experience/'
-     - title: 'Work'
+    - title: 'Work'
       url: '/projects/'
     - title: 'Code Samples'
       url: '/code-samples/'
