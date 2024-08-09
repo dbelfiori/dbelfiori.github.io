@@ -5,8 +5,6 @@ subtitle: Email/Frontend Developer
 image: '/images/project-bauer.jpg'
 ---
 
-<!-- -->
-
 <ul class="list-inline item-details">
     <li>Client:
         <strong><a href="https://www.mitsubishicars.com/">Mitsubishi</a>
@@ -15,4 +13,15 @@ image: '/images/project-bauer.jpg'
     <li>Role:
         <strong>Email & Frontend Developer</strong>
     </li>
+</ul>
+
+<h3>Frontend Developer</h3>
+Frontend Developer in charge of weekly ad content, and CRM management.
+
+<h3>Technology</h3>
+<ul class="list-inline item-details">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>DEALER.COM CRM</li>
 </ul>

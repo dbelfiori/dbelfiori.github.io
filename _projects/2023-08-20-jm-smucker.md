@@ -17,4 +17,13 @@ image: '/images/project-jm-smuckers.jpg'
     </li>
 </ul>
 
-Created email templates and built global components in Salesforce Marketing Cloud
+<h3>Email Developer</h3>
+Email Developer in charge of email template redesign, creating global components, and training.
+
+<h3>Technology</h3>
+<ul class="list-inline item-details">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>AMPSCRIPT</li>
+    <li>SALESFORCE MARKETING CLOUD</li>
+</ul>

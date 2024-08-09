@@ -3,10 +3,7 @@ title: General Mills
 date: 2023-05-10 08:01:35 +0300
 subtitle: Frontend Developer
 image: '/images/project-bauer.jpg'
-
 ---
-
-<!-- -->
 
 <ul class="list-inline item-details">
     <li>Client:
@@ -16,4 +13,16 @@ image: '/images/project-bauer.jpg'
     <li>Role:
         <strong>Frontend Developer</strong>
     </li>
+</ul>
+
+<h3>Frontend Developer</h3>
+Frontend Developer in charge of website redesign and implementation of Wordpress for General Mills subsidiaries, and non-profit programs.
+
+<h3>Technology</h3>
+<ul class="list-inline item-details">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+    <li>WORDPRESS</li>
+    <li>BOOTSTRAP</li>
 </ul>
