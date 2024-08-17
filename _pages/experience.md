@@ -37,7 +37,9 @@ permalink: /experience/
 </div>
 
 > Specialization
-Emails aside, I also specialize in creating Dashboards and Tools in Cloudpages
+
+<p>In addition to email development, I also specialize in developing dashboards and tools within CloudPages.</p>
+
 <ul>
   <li><strong>Look-up Directory:</strong> A searchable directory with information tied to subscribers.</li>
   <li><strong>Task Management System:</strong> Track tasks, deadlines, and progress for different projects.</li>
