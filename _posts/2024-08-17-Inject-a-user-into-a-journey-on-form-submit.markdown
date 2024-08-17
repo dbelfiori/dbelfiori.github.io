@@ -4,7 +4,7 @@ title: Inject a user into a Journey on form submission.
 description: A method to inject a user into a journey on form submission, using a Smart Capture form along with the Journey Builder API.
 date:   2024-08-17 15:01:35 +0300
 image:  '/images/post_journey-implementation.jpg'
-tags: [ampscript, ssjs, js, cloudpage]
+tags: [ampscript, ssjs, cloudpage]
 ---
 
 <h4>AMPscript in CloudPages Form</h4>
