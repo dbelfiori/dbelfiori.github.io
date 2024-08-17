@@ -38,7 +38,7 @@ permalink: /experience/
 
 > Specialization
 
-<p>In addition to email development, I also specialize in developing dashboards and tools within CloudPages.</p>
+<p id="specialized-cloudpages">In addition to email development, I also specialize in developing dashboards and tools within CloudPages.</p>
 
 <ul>
   <li><strong>Look-up Directory:</strong> A searchable directory with information tied to subscribers.</li>
