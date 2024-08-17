@@ -36,6 +36,20 @@ permalink: /experience/
   </div>
 </div>
 
+> Specialization
+Emails aside, I also specialize in creating Dashboards and Tools in Cloudpages
+<ul>
+  <li><strong>Look-up Directory:</strong> A searchable directory with information tied to subscribers.</li>
+  <li><strong>Task Management System:</strong> Track tasks, deadlines, and progress for different projects.</li>
+  <li><strong>Feedback and Surveys:</strong> Collect feedback from customers on various topics, such as customer satisfaction or new initiatives.</li>
+  <li><strong>Knowledge Base:</strong> A repository of components, documents, guides, and FAQs to help coworkers find information quickly.</li>
+  <li><strong>Onboarding Portal:</strong> Provide new hires with all the necessary information to succeed in their new role.</li>
+  <li><strong>Reporting Dashboard:</strong> Simplify the process of looking up and viewing campaign metrics.</li>
+  <li><strong>Email Support Requests:</strong> Allow internal teams to submit and track support tickets.</li>
+  <li><strong>Preference Center:</strong> Collect user email/content preferences.</li>
+  <li><strong>Landing Pages:</strong> Create landing pages promoting products and services.</li>
+</ul>
+
 > Recognitions
 
 <ul>
