@@ -120,7 +120,9 @@ footer_menu__settings:
     - title: 'Home'
       url: '/'
     - title: 'Experience'
-      url: '/Experience/'
+      url: '/experience/'
+    - title: 'Work'
+      url: '/projects/'
     - title: 'Code Samples'
       url: '/code-samples/'
 
