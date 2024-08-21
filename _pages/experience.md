@@ -61,7 +61,8 @@ permalink: /experience/
 (<a href="https://www.awwwards.com/sites/bauer-hockey-1" target="_blank">Bauer</a>,
 <a href="https://www.awwwards.com/sites/travel-belize" target="_blank">Travel Belize</a>,
 <a href="https://www.awwwards.com/sites/riga-ghetto-holocaust-museum" target="_blank">Riga Ghetto Holocaust Museum</a>)</li>
-<li>Nominated for 'Sitecore People&rsquo;s Choice Awards'<a href="https://winners.webbyawards.com/2015/websites-and-mobile-sites/general-websites-and-mobile-sites/cultural-institutions/159773/riga-ghetto-museum-site-redesign" target="_blank">Nominated</a> for 19th Annual Webby Award</li>
+<li>Nominated for 'Sitecore People&rsquo;s Choice Awards'</li>
+<li><a href="https://winners.webbyawards.com/2015/websites-and-mobile-sites/general-websites-and-mobile-sites/cultural-institutions/159773/riga-ghetto-museum-site-redesign" target="_blank">Nominated</a> for 19th Annual Webby Award</li>
 </ul>
 
 > Certifications
