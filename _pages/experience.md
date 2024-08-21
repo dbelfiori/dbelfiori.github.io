@@ -56,7 +56,8 @@ permalink: /experience/
 > Recognitions
 
 <ul>
-  <li>7X Leader in Loyalty Program Services by Forrester&nbsp;Research3X Nominated for 'Best Website'​ by Awwwards.com<br>
+  <li>7X Leader in Loyalty Program Services by Forrester&nbsp;Research</li>
+<li>3X Nominated for 'Best Website'​ by Awwwards.com<br>
 (<a href="https://www.awwwards.com/sites/bauer-hockey-1" target="_blank">Bauer</a>,
 <a href="https://www.awwwards.com/sites/travel-belize" target="_blank">Travel Belize</a>,
 <a href="https://www.awwwards.com/sites/riga-ghetto-holocaust-museum" target="_blank">Riga Ghetto Holocaust Museum</a>)</li>
