@@ -5,6 +5,8 @@ permalink: /tagcount.html
 ---
 
 <style>
+    h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, p, address, hr, table, fieldset, figure, pre {
+    margin: 20px 0 0px !important; }
     table {
             width: 100%;
             max-width: 260px;
@@ -36,10 +38,11 @@ permalink: /tagcount.html
             width: 100% !important;
             height: 200px !important;
         }
+        
 </style>
 <div class="container">
   <div class="row">
-    <div class="col col-12">
+    <div class="col">
     <p>This will count HTML/XHTML tags to check for matching pairs of open/close tags, or missing tags. This is particularly useful for finding errors in tables. This is not as good as a <a href="https://validator.w3.org/" target="_blank">validator</a>, but is more forgiving of non-standard HTML.</p>
     <hr>
     <p>Note: This is a just a quick check for matched pairs of tags for emails.</p>
@@ -47,7 +50,9 @@ permalink: /tagcount.html
     <p>Paste the contents of an HTML or XHTML file here:</p>
     <textarea id="htmlInput" rows="10" cols="50" placeholder="Paste your HTML code here"></textarea><br>
     <button onclick="countTags()">Count Tags</button>
-    <table id="resultTable">
+    </div>
+    <div class="col">
+        <table id="resultTable">
         <thead>
             <tr>
                 <th>Tag Name</th>
