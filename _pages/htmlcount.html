@@ -14,7 +14,7 @@ permalink: /tagcount.html
             border-collapse: collapse;
             border: 2px solid #000 !important;
             margin-top: 20px;
-            display: none; /* Hide the table initially */
+            display: none;
         }
         table tr {background-color: transparent !important;}
         th, td {
@@ -23,16 +23,19 @@ permalink: /tagcount.html
         }
         td {color: #000 !important;}
         .no-open-tags {
-            background-color: #ffcccc !important; /* Light red color for rows with no open tags */
+            background-color: #ffcccc !important;
         }
         .no-tags {
-            background-color: #f7f188 !important; /* Light blue color for rows with no open and closed tags */
+            background-color: #f7f188 !important;
+        }
+        .matching-tags {
+            background-color: #ffffff !important;
         }
         td:first-child {
-            text-align: right !important; /* Right justify the first column */
+            text-align: right !important;
         }
         td:nth-child(2), td:nth-child(3) {
-            text-align: right !important; /* Center justify the second and third columns */
+            text-align: right !important;
         }
         #htmlInput {
             width: 100% !important;
@@ -93,6 +96,8 @@ permalink: /tagcount.html
                     row.classList.add('no-tags');
                 } else if (openTags != closedTags) {
                     row.classList.add('no-open-tags');
+                } else {
+                    row.classList.add('matching-tags');
                 }
                 const cell1 = row.insertCell(0);
                 const cell2 = row.insertCell(1);
