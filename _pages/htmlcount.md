@@ -1,29 +1,29 @@
 ---
 layout: page
-title: Experience
-permalink: /experience/
+title: HTML Tag Counter
+permalink: /tagcount/
 ---
 
 <style>
-        #resultTable {
-            width: 400px;
-            border-collapse: collapse;
-            margin-top: 20px;
-            display: none; /* Hide the table initially */
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        .no-open-tags {
-            background-color: #ffcccc; /* Light red color for rows with no open tags */
-        }
-    </style>
+    #resultTable {
+        width: 400px;
+        border-collapse: collapse;
+        margin-top: 20px;
+        display: none; /* Hide the table initially */
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .no-open-tags {
+        background-color: #ffcccc; /* Light red color for rows with no open tags */
+    }
+</style>
     
     <h1>HTML Tag Counter</h1>
     <p>This will count HTML/XHTML tags to check for matching pairs of open/close tags, or missing tags (&lt;html&gt;, &lt;head&gt;, &lt;title&gt;, and &lt;body&gt;). This is particularly useful for finding errors in tables. No data is sent to the server—this is done locally on your computer. This is not as good as a <a href="https://validator.w3.org/" target="_blank">validator</a>, but is more forgiving of non-standard HTML.</p>
