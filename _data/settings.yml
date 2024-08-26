@@ -18,6 +18,10 @@ menu__settings:
       url: '/projects/'
     - title: 'Code Samples'
       url: '/code-samples/'
+    - title: 'Tools'
+      submenu:
+      - url: '/tagcount.html'
+        title: 'Tag Counter'
 
 #-------------------------------
 # Author Settings
