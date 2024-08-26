@@ -22,7 +22,7 @@ permalink: /tagcount.html
             padding: 0 8px !important;
         }
         td {color: #000 !important;}
-        .no-open-tags {
+        .not-matching-tags {
             background-color: #ffcccc !important;
         }
         .no-tags {
@@ -95,7 +95,7 @@ permalink: /tagcount.html
                 if (openTags === 0 && closedTags === 0) {
                     row.classList.add('no-tags');
                 } else if (openTags != closedTags) {
-                    row.classList.add('no-open-tags');
+                    row.classList.add('not-matching-tags');
                 } else {
                     row.classList.add('matching-tags');
                 }
