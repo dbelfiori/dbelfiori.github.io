@@ -8,7 +8,7 @@ permalink: /tagcount.html
     h1, h2, h3, h4, h5, h6, ul, ol, dl, blockquote, p, address, hr, table, fieldset, figure, pre {
     margin: 20px 0 0px !important; }
     .post-head, .page-head {margin-bottom: 0 !important;}
-    #resultTable table {
+    table {
             width: 100%;
             max-width: 330px;
             border-collapse: collapse;
@@ -16,25 +16,26 @@ permalink: /tagcount.html
             margin-top: 20px;
             display: none; /* Hide the table initially */
         }
-        #resultTable th, td {
+        th, td {
             border: 2px solid #000 !important;
             padding: 0 8px !important;
         }
-        #resultTable .no-open-tags {
+        .no-open-tags {
             background-color: #ffcccc !important; /* Light red color for rows with no open tags */
         }
-        #resultTable .no-tags {
+        .no-tags {
             background-color: #f7f188 !important; /* Light blue color for rows with no open and closed tags */
         }
-        #resultTable td:first-child {
+        td:first-child {
             text-align: right !important; /* Right justify the first column */
         }
-        #resultTable td:nth-child(2), td:nth-child(3) {
+        td:nth-child(2), td:nth-child(3) {
             text-align: right !important; /* Center justify the second and third columns */
         }
         #htmlInput {
             width: 100% !important;
-            height: 108px !important;
+            height: 130px !important;
+            font-size: 14px;
         }
         
 </style>
