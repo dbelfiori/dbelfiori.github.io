@@ -85,7 +85,7 @@ permalink: /tagcount.html
                 if (tag === 'img') {
                     const imgTags = htmlInput.match(/<img[^>]*>/g) || [];
                     openTags = imgTags.length;
-                    closedTags = imgTags.filter(tag => tag.endsWith('/>') || tag.endsWith('">')).length || tag.endsWith('" >')).length;
+                    closedTags = imgTags.filter(tag => tag.endsWith('/>') || tag.endsWith('">') || tag.endsWith('" >')).length;
                 } else {
                     openTags = (htmlInput.match(new RegExp(`<${tag}(\\s|>)`, 'g')) || []).length;
                     closedTags = (htmlInput.match(new RegExp(`</${tag}>`, 'g')) || []).length;
