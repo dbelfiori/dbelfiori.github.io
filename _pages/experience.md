@@ -37,7 +37,7 @@ permalink: /experience/
 </div>
 
 <blockquote id="specialized-cloudpages">
-  <p>Specialization</p>
+  <p>Not Just Email!</p>
 </blockquote>
 
 <p>In addition to email development, I also specialize in developing dashboards and tools within CloudPages.</p>
