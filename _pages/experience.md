@@ -3,11 +3,7 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
-<style>
-.text-center {
-  text-align: center;
-}
-</style>
+
 <div class="row">
   <div class="col col-4 col-d-6 col-t-12 text-center">
     <div>
