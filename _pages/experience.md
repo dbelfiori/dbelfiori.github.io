@@ -63,12 +63,12 @@ permalink: /experience/
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
-    <img src="/images/project-amtrak.jpg" />
+    <img src="/images/project-wyndham.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
-    <img src="/images/project-wyndham.jpg" />
+    <img src="/images/project-amtrak.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
@@ -78,12 +78,22 @@ permalink: /experience/
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
+    <img src="/images/project-pepsico.jpg" />
+  </div>
+  <div
+    class="col col-3 col-d-6 col-t-12 text-center"
+    style="margin-bottom: 20px">
+    <img src="/images/project-general-mills.jpg" />
+  </div>
+  <div
+    class="col col-3 col-d-6 col-t-12 text-center"
+    style="margin-bottom: 20px">
     <img src="/images/project-jm-smuckers.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
-    <img src="/images/project-pepsico.jpg" />
+    <img src="/images/project-skittles.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
@@ -98,22 +108,12 @@ permalink: /experience/
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
-    <img src="/images/project-skittles.jpg" />
-  </div>
-  <div
-    class="col col-3 col-d-6 col-t-12 text-center"
-    style="margin-bottom: 20px">
     <img src="/images/project-best-buy.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
     <img src="/images/project-usa-gov.jpg" />
-  </div>
-  <div
-    class="col col-3 col-d-6 col-t-12 text-center"
-    style="margin-bottom: 20px">
-    <img src="/images/project-general-mills.jpg" />
   </div>
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
