@@ -14,9 +14,9 @@ menu__settings:
       url: '/'
     - title: 'Experience'
       url: '/experience/'
-    - title: 'Work'
-      url: '/projects/'
-    - title: 'Code Samples'
+    # - title: 'Work'
+    #   url: '/projects/'
+     - title: 'Code Samples'
       url: '/code-samples/'
     - title: 'Tools'
       submenu:
@@ -125,8 +125,8 @@ footer_menu__settings:
       url: '/'
     - title: 'Experience'
       url: '/experience/'
-    - title: 'Work'
-      url: '/projects/'
+    # - title: 'Work'
+    #   url: '/projects/'
     - title: 'Code Samples'
       url: '/code-samples/'
 
