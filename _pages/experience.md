@@ -165,7 +165,6 @@ permalink: /experience/
 
 <ul>
   <li><strong>Look-up Directory:</strong> A searchable directory with information tied to subscribers.</li>
-  <li><strong>Task Management System:</strong> Track tasks, deadlines, and progress for different projects.</li>
   <li><strong>Feedback and Surveys:</strong> Collect feedback from customers on various topics, such as customer satisfaction or new initiatives.</li>
   <li><strong>Knowledge Base:</strong> A repository of components, documents, guides, and FAQs to help coworkers find information quickly.</li>
   <li><strong>Onboarding Portal:</strong> Provide new hires on your team with all the necessary information to succeed in their role.</li>
