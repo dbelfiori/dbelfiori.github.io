@@ -2,7 +2,7 @@
 layout: post
 title: Real-Time AJAX Update for CloudPages
 description: display form updates in real-time using AJAX
-date:   2024-08-17 15:01:35 +0300
+date:   2024-09-13 15:01:35 +0300
 image:  '/images/post_retrieving-data.jpg'
 tags: [ampscript, js, cloudpage]
 ---
