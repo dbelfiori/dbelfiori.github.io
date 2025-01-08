@@ -98,6 +98,11 @@ permalink: /experience/
   <div
     class="col col-3 col-d-6 col-t-12 text-center"
     style="margin-bottom: 20px">
+    <img src="/images/project-kroger.jpg" />
+  </div>
+  <div
+    class="col col-3 col-d-6 col-t-12 text-center"
+    style="margin-bottom: 20px">
     <img src="/images/project-nhl.jpg" />
   </div>
   <div
