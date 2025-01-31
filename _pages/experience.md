@@ -22,6 +22,7 @@ permalink: /experience/
         HTML/CSS<br>
         AMPscript<br>
         JavaScript/JQuery/Vue.js<br>
+        SMS/PUSH<br>
         Accessibility (WCAG 2.0)
       </p>
     </div>
